@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="home.css">
+<style>
+input[type=text], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.addbillform {
+  border-radius: 5px;
+  background: linear-gradient(to right,#32dfdf, #9639e2 );
+  padding: 10px;
+}
+body{
+    background: linear-gradient(to right, #9639e2, #32dfdf);
+  font-family: 'Roboto', sans-serif;
+}
+</style>
+</head>
+<body>
+    <a href="aboutus.html" class="baritem button" style="color:white;font-size:25px">About-Us</a>
+    <div class="navcolor">
+        <a class="home" href="home.html">Home</a>
+        <a class="balance" href="balance.html">balance</a>
+        <a class="paybill" href="paybill.html">Pay Bill</a>
+        <a class="transactionhistory" href="transaction.html">Transaction History</a>
+        <a class="addbalance" href="addbalance.html">Add Balance</a>
+        <a class="logout" href="login.html">Logout</a>
+       </div>
+
+<h1><center>ADD BALANCE</center></h1>
+
+<div class="addbillform">
+  <form action="#"><center>
+    <input type="text" placeholder="Enter amount"><br><br>
+    <label>
+        <input type="radio" name="radio" checked/>
+        <span>Card</span>
+    </label><br><br>
+    <label>
+        <input type="radio" name="radio"/>
+        <span>UPI</span>
+    </label><br><br>
+    <label>
+        &nbsp;&emsp;&emsp;&emsp;<input type="radio" name="radio"/>
+        <span>Net banking</span>
+    </label><br><br>
+  
+    <input type="submit" value="Submit">
+</center>
+  </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="home.css">
+  <style>
+      h1{
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(33, 36, 221);
+  text-transform: uppercase;
+}
+td{
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+
+/* demo styles */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #9639e2, #9812b9);
+  background: linear-gradient(to right, #9639e2, #32dfdf);
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  margin: 50px;
+}
+
+
+/* follow me template */
+.made-with-love {
+  margin-top: 40px;
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-size: 30px;
+  font-family: arial;
+  color: rgb(37, 141, 226);
+}
+
+.made-with-love a {
+  color: rgb(4, 47, 82);
+  font-family: cursive;
+  text-decoration: none;
+}
+.made-with-love a:hover {
+  text-decoration: underline;
+}
+
+</style>
+</head>
+<body>
+    <a href="aboutus.html" class="baritem button" style="color:white;font-size:25px">About-Us</a>
+    <div class="navcolor">
+        <a class="home" href="home.html">Home</a>
+        <a class="balance" href="balance.html">balance</a>
+        <a class="paybill" href="paybill.html">Pay Bill</a>
+        <a class="transactionhistory" href="transaction.html">Transaction History</a>
+        <a class="addbalance" href="addbalance.html">Add Balance</a>
+        <a class="logout" href="login.html">Logout</a>
+       </div>
+    <section>
+        <h1>TRANSACTION HISTORY</h1>
+        <div class="tbl-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>S.no</th>
+                <th>Recepient</th>
+                <th>Amount</th>
+                <th>Payment Status</th>
+                <th>Transaction ID</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="tbl-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Purple cosmetics</td>
+                <td>3500</td>
+                <td>Processing</td>
+                <td>0820</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Meesho</td>
+                <td>2000</td>
+                <td>Paid</td>
+                <td>0801</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Airtel</td>
+                <td>450</td>
+                <td>Paid</td>
+                <td>0815</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Matrimony</td>
+                <td>3000</td>
+                <td>Paid</td>
+                <td>0820</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Johnson Lifts</td>
+                <td>10000</td>
+                <td>Paid</td>
+                <td>0827</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Honda Car Services</td>
+                <td>6000</td>
+                <td>Paid</td>
+                <td>0902</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Kurlon Mattress</td>
+                <td>12000</td>
+                <td>Paid</td>
+                <td>0113</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Imax Cinemas</td>
+                <td>400</td>
+                <td>Paid</td>
+                <td>0320</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>Water baloons and co</td>
+                <td>110</td>
+                <td>Paid</td>
+                <td>0420</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      
+      
+      <!-- follow me template -->
+      <div class="made-with-love">
+        <a target="_blank" href="aboutus.html">HASIN SHIFA Wallet</a>
+      </div> 
+</body>
+</html>
